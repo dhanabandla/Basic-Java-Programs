@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Arrayprograms {
@@ -17,16 +18,26 @@ public class Arrayprograms {
        {
            System.out.println(a);
        }*/
+        //copying of array into another array
+        /*int arr[]={1,2,3};
+        int arr1[]={0,0,0};
+        for(int i=0;i<arr.length;i++)
+        {
+            arr1[i]=arr[i];
+            System.out.println(arr1[i]);
+        }*/
+
 //finding duplicate elements in an array
 
         /*int[] array = new int[]{1, 2, 3, 4, 5, 1, 2, 5};
         for (int i = 0; i < array.length; i++) {
             for (int j = i + 1; j < array.length; j++) {
                 if (array[i] == array[j]) {
-                    System.out.println(array[j]);
+                    System.out.println(array[i]);
                 }
             }
         }*/
+
 
 //pring the elements in an array
            /*int a[]={1,2,3,4};
@@ -110,6 +121,65 @@ public class Arrayprograms {
                 System.out.println(a[i]);
             }
         }*/
+
+//concatinate two arrays
+
+      /*int[] a={1,2,3,4,5};
+      int[] b={6,7,8};
+      int length1=a.length;
+      int length2=b.length;
+      int[] result=new int[length1+length2];
+      System.arraycopy(a,0,result,0,length1);
+        System.arraycopy(b,0,result,length1,length2);
+        System.out.println(Arrays.toString(result));*/
+
+//Average of an array elements
+
+      /*double[] a={1,2,3,4,5,6,7,8,9,1.2};
+      double sum=0.0;
+      int i=a.length;
+        System.out.println(i);
+      for(double num:a)
+      {
+          sum=num+sum;
+      }
+        System.out.println(sum);
+      double average=sum/a.length;
+        System.out.println(average);*/
+
+//conversion of charecter array to string-->using two methods we can convert array to string
+        //i.using new string() method
+        //ii.using string.valueof() method
+        /*char[] ch={'d','h','a','n','a'};
+        String s1=new String(ch);
+        System.out.println(s1);
+        String s2=String.valueOf(ch);
+        System.out.println(s2);*/
+
+//conversion of string to an char
+        /*String s="dhana";
+        char ch[]=s.toCharArray();
+        for(char ch1:ch)
+        {
+            System.out.println(ch1);
+        }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         }
