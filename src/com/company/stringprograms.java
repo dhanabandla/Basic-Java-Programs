@@ -60,7 +60,6 @@ public class stringprograms {
         String s=SC.nextLine();
         int Ccount=0;
         int Vcount=0;
-        char ch[]=s.toCharArray();
         for(int i=0;i<s.length();i++)
         {
             if(s.charAt(i)=='a'||s.charAt(i)=='e'||s.charAt(i)=='i'||s.charAt(i)=='o'||s.charAt(i)=='u')
@@ -196,7 +195,7 @@ public class stringprograms {
 
 //check whether string is palindrome or not
 
-        /*String s="madam";
+       /* String s="madam";
         String original=s;
         String rev="";
         char ch[]=s.toCharArray();
@@ -245,7 +244,7 @@ public class stringprograms {
 
  //find duplicate words in a string
 
-        /*String s="dhana lakshmi dhana";
+       /* String s="dhana lakshmi dhana";
 
         String a[]=s.split(" ");
 
@@ -254,7 +253,7 @@ public class stringprograms {
 
             for(int j=i+1;j<a.length;j++) {
                 if (a[i].equals(a[j])) {
-                    System.out.println(a[i]);
+                    System.out.println(a[j]);
 
                 }
             }
@@ -320,7 +319,7 @@ public class stringprograms {
 
 //compare two strings with equals and compare keywords
 
-   /* String s1="dhanad45";
+    /*String s1="dhanad45";
     String s2="dhana";
     System.out.println(s1.equalsIgnoreCase(s2));
         System.out.println(s1.compareTo(s2));*/
@@ -349,6 +348,8 @@ public class stringprograms {
             System.out.println(w.trim());
         }*/
 
+
+
 //keep alphabets and spaces
 
     /* String s="dhana @#90_+!lak^6";
@@ -373,40 +374,44 @@ public class stringprograms {
 
 //convert int to string
          /*int n=125;
-         String ss1=String.valueOf(n);
-        System.out.println(ss1+1);
+         String ss1=String.valueOf(n);drdyh jkloiwsz5rftgyhbyhbn(ss1+1);
 */
 //compare '==' operator and '.equals' method
 
-        /*String str1=new String("dhana");
+        String str1=new String("dhana");
          String str2=new String("dhana");
          System.out.println(str1==str2);//use == operator for reference comparision
          System.out.println(str1.equals(str2));//use equals operator for conten comparision
         //use == operator for reference comparision
         String str3="dhana";
         String str4="dhana";
-        System.out.println(str3.equals(str4));*/
+        System.out.println(str3==str4);
 
 //Remove consecutive letters in array
 
         /*String str="dhhanaaa";
+        String s1="";
         char cha[]=str.toCharArray();
         char p='\0';
         int k=0;
-       for(int i=cha[0];i<=cha.length;cha[i]++)
+       for(int i=0;i<cha.length;i++)
         {
             if(p!=cha[i])
             {
               cha[k++]=cha[i];
               p=cha[i];
+              s1=s1+p;
+
 
             }
+
         }
-        System.out.println(.substring(0,k));*/
+        System.out.println(s1);*/
+
 
         //Remove consecutive letters in array
 
-       /*String str11="dhhanaaa";
+      /* String str11="ssttdfrnn";
         String res="";
         for(int i=0;i<str11.length();i++)
         {
@@ -421,6 +426,7 @@ public class stringprograms {
             }
         }
         System.out.println(res);*/
+
 
         //remove consecutive numbers in array list
 
@@ -469,6 +475,47 @@ public class stringprograms {
     String s2="lakshmi";
         System.out.println(s1.concat(" lakshmi"));
         System.out.println(s1+" lakshmi");*/
+
+//count charecters in other way
+
+        /*String s="my name is dhana";
+        char ch[]=s.toCharArray();
+        int count=0;
+        for(char ch1:ch)
+        {
+            if(ch1!=' ')
+            count++;
+        }
+        System.out.println(count);*/
+
+//String palindrome
+
+   /*String s="dhana";
+   String rev="";
+   char ch[]=s.toCharArray();
+        for(int i=ch.length-1;i>=0;i--)
+        {
+            rev=rev+ch[i];
+        }
+        System.out.println(rev);
+        if(rev.equals(s))
+        {
+            System.out.println("given string is plaindrome");
+        }
+        else
+            System.out.println("not palindrome");*/
+
+//Remove consecutive elements in array and string
+
+     String s="dhana";
+     char ch[]=s.toCharArray();
+     for(int i=0;i<ch.length;i+=2)
+     {
+
+         System.out.println(ch[i]);
+     }
+
+
 
 
 

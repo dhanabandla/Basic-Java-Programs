@@ -68,7 +68,7 @@ public class numberprograms {
         }*/
 
         //factors from 1 to 100
-        for(int i=1;i<=100;i++)
+        /*for(int i=1;i<=100;i++)
         {
             System.out.print("factors of a number " +i+ " are :");
             for(int j=1;j<=i;j++)
@@ -80,7 +80,8 @@ public class numberprograms {
 
             }
             System.out.println();
-        }
+        }*/
+
 
 
 
