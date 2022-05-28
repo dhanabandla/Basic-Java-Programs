@@ -28,8 +28,8 @@ public class Arrayprograms {
         }*/
 
 //finding duplicate elements in an array
-
-        /*int[] array = new int[]{1, 2, 3, 4, 5, 1, 2, 5};
+/*
+        int[] array = new int[]{1, 2, 3, 4, 5, 1, 2, 5};
         for (int i = 0; i < array.length; i++) {
             for (int j = i + 1; j < array.length; j++) {
                 if (array[i] == array[j]) {
@@ -156,14 +156,15 @@ public class Arrayprograms {
         String s2=String.valueOf(ch);
         System.out.println(s2);*/
 
+
 //conversion of string to an char
-        /*String s="dhana";
+       /* String s="dhana";
         char ch[]=s.toCharArray();
         for(char ch1:ch)
         {
             System.out.println(ch1);
-        }*/
-
+        }
+*/
 
 
 
