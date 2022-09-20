@@ -63,7 +63,7 @@ public class Arrayprograms {
 
 //find maximum value in an array
 
-        /*int a[]={5,17,70,10,180,180};
+        /*int a[]={5,17,70,10,180,181};
         int max=a[0];
         for(int i=0;i<a.length;i++)
         {
@@ -90,7 +90,7 @@ public class Arrayprograms {
         int temp=0;
         for(int i=0;i<a.length;i++) {
             for (int j = i + 1; j < a.length; j++) {
-                if (a[i] < a[j]) {
+                if (a[i] > a[j]) {
                     temp = a[i];
                     a[i] = a[j];
                     a[j] = temp;
@@ -98,8 +98,8 @@ public class Arrayprograms {
                 }
 
             }
-        }
-            for(int b:a)
+        }*/
+            /*for(int b:a)
             {
                 System.out.println(b);
 
@@ -111,11 +111,11 @@ public class Arrayprograms {
         /*int a[]={5,17,70,10,180,181};
         int n=a.length;
         Arrays.sort(a);
-        System.out.println(a[n-6]);*/
+        System.out.println(a[n-1]);*/
 
 //print even or odd elements in an array
 
-        /*int a[]={5,17,70,10,180,180};
+       /* int a[]={5,17,70,10,180,180};
         for(int i=0;i<a.length;i++) {
             if (a[i] % 2 != 0) {
                 System.out.println(a[i]);

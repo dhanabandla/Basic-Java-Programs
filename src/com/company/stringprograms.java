@@ -195,20 +195,20 @@ public class stringprograms {
 
 //check whether string is palindrome or not
 
-       /* String s="madam";
-        String original=s;
+        String s="madam";
+        //String original=s;
         String rev="";
         char ch[]=s.toCharArray();
         for(int i=ch.length-1;i>=0;i--)
         {
             rev=rev+ch[i];
         }
-        if(s==original)
+        if(s.equals(rev))
         {
             System.out.println("given string is palindrome");
         }
         else
-            System.out.println("given string is not palindrom");*/
+            System.out.println("given string is not palindrom");
 
 //find duplicate charecters in a string
 
@@ -263,7 +263,7 @@ public class stringprograms {
 
 //number of words in a string
 
-        /*String s="dhan lakshmi bandla";
+        /*String s="dhana lakshmi bandla";
         int a=s.split(" ").length;
         System.out.println( s.split(" ").length);*/
 
@@ -378,14 +378,14 @@ public class stringprograms {
 */
 //compare '==' operator and '.equals' method
 
-        String str1=new String("dhana");
+        /*String str1=new String("dhana");
          String str2=new String("dhana");
-         System.out.println(str1==str2);//use == operator for reference comparision
-         System.out.println(str1.equals(str2));//use equals operator for conten comparision
+         System.out.println(str1==str2);//use == operator for reference comparision-->false
+         System.out.println(str1.equals(str2));//use equals operator for conten comparision-->true
         //use == operator for reference comparision
         String str3="dhana";
         String str4="dhana";
-        System.out.println(str3==str4);
+        System.out.println(str3==str4);//true*/
 
 //Remove consecutive letters in array
 
@@ -507,13 +507,13 @@ public class stringprograms {
 
 //Remove consecutive elements in array and string
 
-     String s="dhana";
+     /*String s="dhana";
      char ch[]=s.toCharArray();
      for(int i=0;i<ch.length;i+=2)
      {
 
          System.out.println(ch[i]);
-     }
+     }*/
 
 
 
