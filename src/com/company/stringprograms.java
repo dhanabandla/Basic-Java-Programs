@@ -10,7 +10,7 @@ public class stringprograms {
     public static void main(String[] args) {
 
 //count the total number of charecters in a string
-        /*String s="My Name is Dhana";
+        String s="My Name is Dhana";
         int count=0;
         for(int i=0;i<s.length();i++)
         {
@@ -19,7 +19,7 @@ public class stringprograms {
                 count++;
             }
         }
-        System.out.println(count);*/
+        System.out.println(count);
 
 //find number of letters,digits,spaces and other in a string
 
@@ -507,13 +507,13 @@ public class stringprograms {
 
 //Remove consecutive elements in array and string
 
-     String s="dhana";
+     /*String s="dhana";
      char ch[]=s.toCharArray();
      for(int i=0;i<ch.length;i+=2)
      {
 
          System.out.println(ch[i]);
-     }
+     }*/
 
 
 
