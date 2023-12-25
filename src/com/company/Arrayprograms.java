@@ -63,7 +63,7 @@ public class Arrayprograms {
 
 //find maximum value in an array
 
-        /*int a[]={5,17,70,10,180,180};
+        /*int a[]={5,17,70,10,180,181};
         int max=a[0];
         for(int i=0;i<a.length;i++)
         {
@@ -90,7 +90,7 @@ public class Arrayprograms {
         int temp=0;
         for(int i=0;i<a.length;i++) {
             for (int j = i + 1; j < a.length; j++) {
-                if (a[i] < a[j]) {
+                if (a[i] > a[j]) {
                     temp = a[i];
                     a[i] = a[j];
                     a[j] = temp;
@@ -98,8 +98,8 @@ public class Arrayprograms {
                 }
 
             }
-        }
-            for(int b:a)
+        }*/
+            /*for(int b:a)
             {
                 System.out.println(b);
 
@@ -108,14 +108,14 @@ public class Arrayprograms {
 
 //find third largest value in an array
 
-        /*int a[]={5,17,70,10,180,181};
+       /* int a[]={5,17,70,10,180,181};
         int n=a.length;
         Arrays.sort(a);
-        System.out.println(a[n-6]);*/
-
+        System.out.println(a[n-3]);
+*/
 //print even or odd elements in an array
 
-        /*int a[]={5,17,70,10,180,180};
+       /* int a[]={5,17,70,10,180,180};
         for(int i=0;i<a.length;i++) {
             if (a[i] % 2 != 0) {
                 System.out.println(a[i]);
@@ -166,24 +166,263 @@ public class Arrayprograms {
         }
 */
 
+       /* if(args.length==1|args[1].equals("test)"))
+        {
+            System.out.println("test case");
+        }
+else {
+            System.out.println(args[0]);
+        }*/
+        /*String msg=null;
+        try{
+            System.out.println(msg.length());
+        }
+        catch (NullPointerException ex)
+        {
+            System.out.println("Exception is caught here");
+            throw ex;
+
+        }*/
+/*
+
+        int numbers[]=new int[2];
+        numbers[0]=1265;
+        numbers[1]=1212;
+        int j=0;
+        for (int i=0;i<numbers.length;i++)
+        {
+            System.out.println(numbers[j]);
+            ++j;
+        }
+*/
+      /*  String a[]=new String{"test"};
+        String a1[]=new String[4]{};
+        String a2[]=new String[]{};
+        String a3[]=new String[0];*/
+
+        /*for (int i=0;i<5;i++)
+        {
+            switch (i){
+                case 0:
+                    System.out.print("v ");break;
+                case 1:
+                    System.out.print("W ");
+
+                case 2:
+                    System.out.print("X ");
+
+                case 3:
+                    System.out.print("Y ");
+                case 4:
+                    System.out.print("z ");break;
 
 
 
+            }
+        }*/
+/*int i1=15;
+String b1=i1>20?"Green":i1>10?"Blue":"Violet";
+        System.out.println(b1);*/
+
+        /*double x=10;
+        int y=20;
+        float z=30;
+        float b=x+y+z;*/
+
+       /* boolean flag=false;
+        if(flag=true)
+        {
+            System.out.println("true");
+        }
+else System.out.println("false");*/
+
+        //find second and first largest number in an array
+        /*int a[]={2,4,6,7,1,9,10};
+        Arrays.sort(a);
+        int n=a.length;
+        System.out.println("first largest number in an array : "+a[n-1]);
+        System.out.println("second largest number in an array : "+a[n-2]);*/
+
+        //fetch duplicate elements from two different arrays
+
+        /*char a[]={'d','h','a','n','a'};
+        char b[]={'d','h','k','s','h'};
+
+        ArrayList<Character> c=new ArrayList<>();
+      for(int i=0;i<a.length;i++)
+      {
+          for(int j=0;j<b.length;j++)
+          {
+              if(a[i]==b[j])//== operator because of arrays are objects and the == operator compares the object references
+              {
+                  c.add(a[i]);
+                  break;
 
 
+              }
+          }
 
 
+      }
+      if(!c.isEmpty())
+      {
+          System.out.println(c);
+      }
+      else {
+          System.out.println("there were no duplicates found");
+      }
+
+*/
+
+        //find duplicates charecters from two different arraylists
+       /*ArrayList<Character> a=new ArrayList(Arrays.asList('d','h','a','n','c'));
+        ArrayList<Character> b=new ArrayList(Arrays.asList('s','u','d','h','a'));
 
 
-
-
-
-
-
-
+        ArrayList<Character> c=new ArrayList();
+        for(int i=0;i<a.size();i++)
+        {
+            for(int j=0;j<b.size();j++)
+            {
+                if(a.get(i).equals(b.get(j)))
+                {
+                    c.add(a.get(i));
+                    break;
+                }
+            }
 
 
         }
+        if(!c.equals(null))
+        {
+            System.out.println(c);
+        }
+        else {
+            System.out.println("there were no duplicates found");
+        }
+*/
+  /*      //find duplicates strings from two different arraylists
+       ArrayList<String> a=new ArrayList(Arrays.asList("dhana","hurry","anna","nice","cheap"));
+        ArrayList<String> b=new ArrayList(Arrays.asList("dhana","hurrya","annaq"));
+
+
+        ArrayList<String> c=new ArrayList();
+        for(int i=0;i<a.size();i++)
+        {
+            for(int j=0;j<b.size();j++)
+            {
+                if(a.get(i).equals(b.get(j)))
+                {
+                    c.add(a.get(i));
+                    break;
+                }
+            }
+
+
+        }
+        if(!c.equals(null))
+        {
+            System.out.println(c);
+        }
+        else {
+            System.out.println("there were no duplicates found");
+        }*/
+
+        //Compare two arrayliasts
+    /*    ArrayList a=new ArrayList(Arrays.asList(1,2,3,4,5));
+        ArrayList b=new ArrayList(Arrays.asList(1,2,3,4,6));
+
+        if(a.size()!=b.size())
+        {
+            System.out.println("Lista are different");
+
+        }
+        else {
+            System.out.println(a.equals(b));
+        }*/
+
+        //convert the arraylist to static array
+      /*  ArrayList<String> a=new ArrayList<>(Arrays.asList("sudha","dhana","aruna"));
+        String[] s=new String[a.size()];
+        for(int i=0;i<a.size();i++)
+        {
+            s[i]=a.get(i);
+            System.out.print(s[i]+" ");
+        }*/
+        //What will be the output of the following Java code?
+        /*class box
+        {
+            int width;
+            int height;
+            int length;
+        }
+        class main
+        {
+            public static void main(String args[])
+            {
+                box obj = new box();
+                obj.width = 10;
+                obj.height = 2;
+                obj.length = 10;
+                int y = obj.width * obj.height * obj.length;
+                System.out.print(y);//200
+            }
+        }*/
+        //What will be the output of the following Java code?
+        /*class Output
+        {
+            public static void main(String args[])
+            {
+                double x = 3.14;
+                int y = (int) Math.ceil(x);//Math.ceil function rounds up the value of x to the nearest integer
+                System.out.print(y);//4
+            }
+        }*/
+//which package have contains the random class in java
+        /*a) java.util package//the random class is the part of the util pacakge in java and use its methods to generate the random number
+        b) java.lang package
+        c) java.awt package//this package provides classess for handling teh GUI,handling events, and working with graphics and images
+        d) java.io package*/
+       // What will be the output of following Java code?
+import java.util.Scanner;
+        class ThisKeyword {
+            private int a = 4;
+            private int b = 1;
+            void getSum(int a, int b) {
+                this.a = a;
+                this.b = b;
+                System.out.println(this.a + this.b);
+            }
+        }
+        public class Main {
+            public static void main(String args[]) {
+                ThisKeyword T = new ThisKeyword();
+                T.getSum(3, 5);
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
     }
 
 

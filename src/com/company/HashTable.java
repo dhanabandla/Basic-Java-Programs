@@ -14,6 +14,17 @@ public class HashTable {
         System.out.println(h.size());
         System.out.println(h.get(3));
 
+        char ch[]={'d','h','a'};
+        System.out.println(ch.length);
+        System.out.println(h.keySet());
+        h.values();
+        h.get(2);
+        h.entrySet();
+
+
+
+
+
 
 
 

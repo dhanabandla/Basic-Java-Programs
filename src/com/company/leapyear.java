@@ -5,6 +5,9 @@ import java.util.Scanner;
 
 public class leapyear {
     public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the string");
+        int s1=sc.nextInt();
 //find given year is leap year or not
         /*int n = 1200;
 

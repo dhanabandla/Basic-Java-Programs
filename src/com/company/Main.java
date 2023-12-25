@@ -44,7 +44,7 @@ public class Main {
        // * * * *
        // * * * * *
 
-       /*{
+       {
             int n = 5;
             for (int i = 1; i <= n; i++) {
                 for (int j = 1; j <= i; j++) {
@@ -54,7 +54,7 @@ public class Main {
 
             }
 
-        } */
+        }
        //          *
        //        * *
        //      * * *
@@ -214,7 +214,7 @@ public class Main {
                for (int j = 1; j <= i; j++)
                {
 
-                   System.out.print(p--+" ");
+                   System.out.print(p--+" ");//post decrement here result is 5 and p is 4 now
 
                }
                System.out.println();
@@ -230,10 +230,10 @@ public class Main {
        int ascci2=ch2;
        System.out.println(ascci1+" "+ascci2);*/
  //prints the ASCII value (0 to 255) of all the characters
-      for(int i=0;i<=255;i++)
+      /*for(int i=0;i<=255;i++)
       {
           System.out.println("ascii value of " +(char)i+ "=" +i);
-      }
+      }*/
  /*print a to z charecters
        for(char ch='a';ch<='z';ch++)
        {

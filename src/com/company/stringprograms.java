@@ -10,7 +10,7 @@ public class stringprograms {
     public static void main(String[] args) {
 
 //count the total number of charecters in a string
-        String s="My Name is Dhana";
+       /* String s="My Name is Dhana";
         int count=0;
         for(int i=0;i<s.length();i++)
         {
@@ -19,7 +19,7 @@ public class stringprograms {
                 count++;
             }
         }
-        System.out.println(count);
+        System.out.println(count);*/
 
 //find number of letters,digits,spaces and other in a string
 
@@ -177,7 +177,7 @@ public class stringprograms {
 
 //reverse of words in a string
 
-        /*String str="My Name is Dhana";
+    /*    String str="My Name is Dhana";
         String[] a=str.split(" ");
         System.out.println("before reversing the string");
         for(int i=0;i<a.length;i++)
@@ -195,15 +195,15 @@ public class stringprograms {
 
 //check whether string is palindrome or not
 
-       /* String s="madam";
-        String original=s;
+        /*String s="madam";
+        //String original=s;
         String rev="";
         char ch[]=s.toCharArray();
         for(int i=ch.length-1;i>=0;i--)
         {
             rev=rev+ch[i];
         }
-        if(s==original)
+        if(s.equals(rev))
         {
             System.out.println("given string is palindrome");
         }
@@ -263,7 +263,7 @@ public class stringprograms {
 
 //number of words in a string
 
-        /*String s="dhan lakshmi bandla";
+        /*String s="dhana lakshmi bandla";
         int a=s.split(" ").length;
         System.out.println( s.split(" ").length);*/
 
@@ -282,7 +282,7 @@ public class stringprograms {
         /*String s1="dhana";
         String s2="lakshmi";
         s1=s1+s2;//concatinate s1 and s2(dhanalakshmi)
-        s2=s1.substring(s1.length()-s2.length());//store initial s1 to s2(dhana)
+        s2=s1.substring(0,s1.length()-s2.length());//store initial s1 to s2(dhana)
         s1=s1.substring(s2.length());//store initial s1 to s2(lakshmi)
         System.out.println("swaping of s1 and s2 is :"+s1+ " " +s2);*/
 
@@ -294,16 +294,29 @@ public class stringprograms {
 
 //caps of string
 
-     /* String s="i Am dHana";
+    /*  String s="i Am dHana";
       String[] s2=s.split(" ");
-        //for(String w:s2)
-       *//* for(int i=0;i<s2.length;i++)
+        for(String w:s2)
+        //for(int i=0;i<s2.length;i++)
       {
-          String first=s2[i].substring(0,1); //extract 1st letter in string-->will not extract 0th letter
-          String last =s2[i].substring(1);//extract letters from 1 to end-->will not extract 0th letter
+          String first=w.substring(0,1); //extract 1st letter in string-->will not extract 0th letter
+          String last =w.substring(1);//extract letters from 1 to end-->will not extract 0th letter
           String caps=first.toUpperCase()+last.toLowerCase();
           System.out.println(caps);
       }*/
+
+        /*String s="i Am dHana";
+        String[] s1=s.split(" ");
+//for(String s3:s1)
+        for(int i=0;i<s1.length;i++)
+        {
+            String first=s1[i].substring(0,1);
+            String last=s1[i].substring(1);
+            String Fcaps=first.toUpperCase()+last.toLowerCase();
+            System.out.print(Fcaps+" ");
+
+        }*/
+
 
 //converting char array to string
 
@@ -378,14 +391,14 @@ public class stringprograms {
 */
 //compare '==' operator and '.equals' method
 
-        String str1=new String("dhana");
+        /*String str1=new String("dhana");
          String str2=new String("dhana");
-         System.out.println(str1==str2);//use == operator for reference comparision
-         System.out.println(str1.equals(str2));//use equals operator for conten comparision
+         System.out.println(str1==str2);//use == operator for reference comparision-->false
+         System.out.println(str1.equals(str2));//use equals operator for conten comparision-->true
         //use == operator for reference comparision
-        String str3="dhana";
+        String str3="dhana";//string pool constant use same reference object for same string but new every new string creates the new object in heap memory
         String str4="dhana";
-        System.out.println(str3==str4);
+        System.out.println(str3==str4);//true*/
 
 //Remove consecutive letters in array
 
@@ -488,6 +501,7 @@ public class stringprograms {
         }
         System.out.println(count);*/
 
+
 //String palindrome
 
    /*String s="dhana";
@@ -514,6 +528,37 @@ public class stringprograms {
 
          System.out.println(ch[i]);
      }*/
+
+
+        //Split into multiple words
+        /*String si="java,selenium,testng,jenkins";
+        String si2[]=si.split(",");
+        //String si2[]=si.split(",",2);//split at second place so, two arrays we cans ee as an output
+        for(String si3:si2)
+        {
+            System.out.println(si3);
+        }*/
+
+        //concatinate words-using + and concate method
+        /*String s1="ABC";
+        String s2="XYZ";
+        String s3="PQR";
+        //String strc=s1+s2+s3;
+
+      String strc=s1.concat(s2).concat(s3);
+        System.out.println(strc);*/
+
+        Scanner sc=new Scanner((System.in));
+        System.out.println("enetr the required charecters");
+        try {
+            String s = sc.next();
+        }
+        finally {
+
+        }
+
+
+
 
 
 

@@ -81,6 +81,15 @@ public class numberprograms {
             }
             System.out.println();
         }*/
+        //swap two number without using third varoable in java
+        /*int a=1;
+        int b=3;
+        a=a+b;//a=a^b
+        b=a-b;//b=a^b
+        a=a-b;//a=a^b
+        System.out.println("after swapping:"+a+"and"+b+);*/
+        //Note : can swap the numbers or strings using xor operator in java as above
+
 
 
 

@@ -27,8 +27,8 @@ public class ArrayLisrPrograms {
         l1.addAll(1,l2);
         System.out.println(l1);//expected [dhana,aruna,mani,sudha]
 //3...clear arraylist
-        /*l1.clear();
-        System.out.println(l1);*/
+        l1.clear();
+        System.out.println(l1);
 //4...clone arraylist values
         ArrayList<String> clonelist=(ArrayList<String>)l2.clone();
         System.out.println(clonelist);
@@ -52,8 +52,8 @@ public class ArrayLisrPrograms {
         System.out.println(l4);
 //10...retain method(will get same string names within arraylist)
         ArrayList<String> l5=new ArrayList<String>(Arrays.asList("dhana","adi","app","nag","ram","adi","app"));
-        /*l5.retainAll(Collections.singleton("app"));
-        System.out.println(l5);*/
+        l5.retainAll(Collections.singleton("app"));
+        System.out.println(l5);
 //11.....sublist from arraylist
         ArrayList<String> sublist=new ArrayList<String>(l5.subList(1,4));
         System.out.println(sublist);
@@ -69,9 +69,9 @@ public class ArrayLisrPrograms {
         }
         System.out.println(Arrays.toString(arr));
 //convert array to arraylist
-        /*int[] a={1,2,3,4,5};
+        int[] a={1,2,3,4,5};
         List a1 =Arrays.asList(a);
-        System.out.println(a1);*/
+        System.out.println(a1);
         String[] geeks = {"Rahul", "Utkarsh",
                 "Shubham", "Neelam"};
 
@@ -82,10 +82,9 @@ public class ArrayLisrPrograms {
         System.out.println(al);
 
 //ask sudha about tostring
-        ArrayList  a=new ArrayList(Arrays.asList(10,23,45,67));
-        System.out.println(a);
+        ArrayList  a4=new ArrayList(Arrays.asList(10,23,45,67));
+        System.out.println(a4);
         System.out.println(a.toString());
-
 
 
 
